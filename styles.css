@@ -1,0 +1,33 @@
+#Contact {
+    background-color: rgb(50, 50, 50);
+}
+
+body {
+    position: relative;
+}
+
+#Home {
+    background-color: rgb(255, 255, 255);
+}
+
+.name {
+    font-size: 6rem;
+}
+
+.banner {
+    height: 100vh !important;
+}
+
+#Project {
+    background-color: rgb(200, 200, 200);
+}
+
+.carousel-item img {
+    height: 300px !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+#Skills {
+    background-color: rgb(150, 150, 150);
+}
