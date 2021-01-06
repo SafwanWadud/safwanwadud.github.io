@@ -1,5 +1,5 @@
-##My Portfolio
+## My Portfolio
 
 my first attempt at making a portfolio website
 
-safwanwadud.github.io
+https://safwanwadud.github.io/
