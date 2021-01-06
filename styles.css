@@ -4,6 +4,7 @@
 
 body {
     position: relative;
+    overflow-x: hidden;
 }
 
 #Home {
@@ -18,16 +19,22 @@ body {
     height: 100vh !important;
 }
 
-#Project {
+#Projects {
     background-color: rgb(200, 200, 200);
 }
 
 .carousel-item img {
     height: 300px !important;
     width: 100% !important;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 #Skills {
     background-color: rgb(150, 150, 150);
+}
+
+#particles-js {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
 }
