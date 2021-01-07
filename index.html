@@ -13,6 +13,8 @@
             crossorigin="anonymous"
         />
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
         <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
         <link rel="stylesheet" href="styles.css" />
@@ -60,9 +62,9 @@
 
         <!-- Projects -->
         <div class="py-5 text-dark p-5" id="Projects">
-            <h1 class="mt-5">Projects</h1>
+            <h1 class="mt-5 fade-in">Projects</h1>
             <br />
-            <div class="project d-flex justify-content-around mb-5" style="height: 60vh">
+            <div class="fade-in project d-flex justify-content-around mb-5" style="height: 60vh">
                 <div class="w-50 px-5">
                     <h3 class="text-center mb-4">MyMovieList - Web Application</h3>
                     <p>
@@ -119,7 +121,7 @@
             </div>
 
             <hr />
-            <div class="project d-flex justify-content-around mb-5" style="height: 60vh; margin-top: 6rem">
+            <div class="fade-in project d-flex justify-content-around mb-5" style="height: 60vh; margin-top: 6rem">
                 <div class="w-50">
                     <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
                         <ol class="carousel-indicators">
@@ -177,7 +179,7 @@
 
             <hr />
 
-            <div class="project d-flex justify-content-around mb-5" style="height: 60vh; margin-top: 6rem">
+            <div class="fade-in project d-flex justify-content-around mb-5" style="height: 60vh; margin-top: 6rem">
                 <div class="w-50 px-5">
                     <h3 class="text-center mb-4">File Search Engine</h3>
                     <p>
@@ -215,7 +217,7 @@
 
             <hr />
 
-            <div class="project d-flex justify-content-around mb-3" style="height: 60vh; margin-top: 6rem">
+            <div class="fade-in project d-flex justify-content-around mb-3" style="height: 60vh; margin-top: 6rem">
                 <div class="w-50">
                     <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
                         <ol class="carousel-indicators">
@@ -266,56 +268,56 @@
 
         <!-- Skills -->
         <div class="container-fluid py-5 text-light p-5 text-center" id="Skills">
-            <h1 class="m-2 mt-5">Skills</h1>
-            <h2 class="my-5">Languages</h2>
-            <div class="language-icons d-flex flex-row justify-content-around align-items-center">
+            <h1 class="m-2 mt-5 fade-in">Skills</h1>
+            <h2 class="my-5 fade-in">Languages</h2>
+            <div class="fade-in language-icons d-flex flex-row justify-content-around align-items-center">
                 <div class="logo-div">
-                    <img src="./images/languages/java.png" alt="java" />
+                    <img src="./images/languages/java.png" alt="java" title="java" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/languages/c.webp" alt="c" />
+                    <img src="./images/languages/c.webp" alt="c" title="c" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/languages/python.png" alt="python" />
+                    <img src="./images/languages/python.png" alt="python" title="python" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/languages/javascript.png" alt="javascript" />
+                    <img src="./images/languages/javascript.png" alt="javascript" title="javascript" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/languages/html.png" alt="html" />
+                    <img src="./images/languages/html.png" alt="html" title="html" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/languages/css.png" alt="css" />
+                    <img src="./images/languages/css.png" alt="css" title="css" />
                 </div>
             </div>
-            <h2 class="my-5">Frameworks</h2>
-            <div class="framework-icons d-flex flex-row justify-content-around align-items-center">
+            <h2 class="my-5 fade-in">Frameworks</h2>
+            <div class="fade-in framework-icons d-flex flex-row justify-content-around align-items-center">
                 <div class="logo-div">
-                    <img src="./images/frameworks/node.png" alt="nodeJS" />
+                    <img src="./images/frameworks/node.png" alt="nodeJS" title="nodeJS" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/frameworks/express.png" alt="expressJS" />
+                    <img src="./images/frameworks/express.png" alt="expressJS" title="expressJS" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/frameworks/mongodb.png" alt="mongoDB" />
+                    <img src="./images/frameworks/mongodb.png" alt="mongoDB" title="mongoDB" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/frameworks/mongoose.png" alt="mongoose" />
+                    <img src="./images/frameworks/mongoose.png" alt="mongoose" title="mongoose" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/frameworks/pug.png" alt="pugJS" />
+                    <img src="./images/frameworks/pug.png" alt="pugJS" title="pugJS" />
                 </div>
                 <div class="logo-div">
-                    <img src="./images/frameworks/bootstrap.png" alt="bootstrap" />
+                    <img src="./images/frameworks/bootstrap.png" alt="bootstrap" title="bootstrap" />
                 </div>
             </div>
         </div>
 
         <!-- Contact -->
         <div class="container-fluid py-5 text-light p-5 text-center" id="Contact">
-            <h1>Contact Me</h1>
+            <h1 class="fade-in">Contact Me</h1>
             <br />
-            <div class="social-icons justify-content-around">
+            <div class="fade-in social-icons justify-content-around">
                 <a class="mail-i" href="mailto: safwan_wadud@hotmail.com" target="_blank">
                     <i class="fas fa-envelope fa-3x px-3"></i>
                 </a>
@@ -337,5 +339,6 @@
 
         <script src="./js/particles.min.js"></script>
         <script src="./js/app.js"></script>
+        <script src="./js/fade.js"></script>
     </body>
 </html>

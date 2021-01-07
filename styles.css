@@ -89,3 +89,7 @@ body {
     color: #0077b5;
     transition-duration: 0.3s;
 }
+
+.fade-in {
+    opacity: 0;
+}
