@@ -1,7 +1,3 @@
-#Contact {
-    background-color: rgb(50, 50, 50);
-}
-
 body {
     position: relative;
     overflow-x: hidden;
@@ -20,7 +16,7 @@ body {
 }
 
 #Projects {
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(215, 215, 215);
 }
 
 .carousel-item img {
@@ -30,11 +26,35 @@ body {
 }
 
 #Skills {
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(195, 195, 195);
+}
+
+#Contact {
+    background-color: rgb(50, 50, 50);
 }
 
 #particles-js {
     position: absolute;
     width: 100vw;
     height: 100vh;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.github-i:hover {
+    color: #211f1f;
+    transition-duration: 0.3s;
+}
+
+.mail-i:hover {
+    color: #0072c6;
+    transition-duration: 0.3s;
+}
+
+.linkedin-i:hover {
+    color: #0077b5;
+    transition-duration: 0.3s;
 }
