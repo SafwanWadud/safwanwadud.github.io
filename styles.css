@@ -31,8 +31,27 @@ body {
 
 .language-icons img,
 .framework-icons img {
+    height: 80px !important;
+    width: 80px !important;
+    transition-duration: 0.3s;
+}
+
+.logo-div {
+    height: 100px;
+    width: 100px;
+}
+
+.language-icons,
+.framework-icons {
+    height: 100px;
+    margin: 0 10%;
+}
+
+.language-icons img:hover,
+.framework-icons img:hover {
     height: 100px !important;
     width: 100px !important;
+    transition-duration: 0.3s;
 }
 
 #Contact {
@@ -48,6 +67,12 @@ body {
 .social-icons a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+.github-i,
+.mail-i,
+.linkedin-i {
+    transition-duration: 0.3s;
 }
 
 .github-i:hover {
