@@ -1,4 +1,5 @@
 body {
+    font-family: "Helvetica", "Arial", sans-serif;
     position: relative;
     overflow-x: hidden;
 }
@@ -56,6 +57,7 @@ body {
 
 #Contact {
     background-color: rgb(50, 50, 50);
+    height: 60vh;
 }
 
 #particles-js {
