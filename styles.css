@@ -29,6 +29,12 @@ body {
     background-color: rgb(195, 195, 195);
 }
 
+.language-icons img,
+.framework-icons img {
+    height: 100px !important;
+    width: 100px !important;
+}
+
 #Contact {
     background-color: rgb(50, 50, 50);
 }
