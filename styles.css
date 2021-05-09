@@ -32,7 +32,8 @@ body {
 }
 
 .language-icons img,
-.framework-icons img {
+.framework-icons img,
+.tool-icons img {
     height: 80% !important;
     width: 80% !important;
     transition-duration: 0.3s;
@@ -45,12 +46,14 @@ body {
 }
 
 .language-icons,
-.framework-icons {
+.framework-icons,
+.tool-icons {
     margin: 0 10%;
 }
 
 .language-icons img:hover,
-.framework-icons img:hover {
+.framework-icons img:hover,
+.tool-icons img:hover {
     height: 100% !important;
     width: 100% !important;
     transition-duration: 0.3s;
