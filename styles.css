@@ -83,22 +83,22 @@ body {
 .github-i,
 .mail-i,
 .linkedin-i {
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }
 
 .github-i:hover {
     color: #211f1f;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }
 
 .mail-i:hover {
     color: #0072c6;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }
 
 .linkedin-i:hover {
     color: #0077b5;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }
 
 .fade-in {
