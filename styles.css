@@ -15,6 +15,7 @@ body {
 
 .banner {
     height: 100vh !important;
+    z-index: -1;
 }
 
 #Projects {
